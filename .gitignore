@@ -14,3 +14,4 @@ pom.xml.asc
 rum.iml
 .cljs_node_repl/
 .cpcache/
+resources/public/js/
