@@ -24,7 +24,8 @@
                                   [figwheel-sidecar "0.5.20"]
                                   [expound "0.7.1"]
                                   [cider/piggieback "0.5.3"]
-                                  [org.clojure/tools.nrepl  "0.2.13"]]}
+                                  [org.clojure/tools.nrepl  "0.2.13"]
+                                  [com.bhauman/figwheel-main "0.1.9"]]}
              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
              :perf {:source-paths ["perf"]
                     :dependencies
